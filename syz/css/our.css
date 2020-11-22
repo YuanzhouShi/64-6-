@@ -1,0 +1,263 @@
+/* 通过样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #000;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color:#0ff;
+    text-decoration: none;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+
+@media (max-width: 767px) {
+    .tb{
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .one{
+        display: none;
+    }
+    .two{
+        display: block;
+    }
+}
+@media (min-width: 768px){ 
+    .tb{
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        width: 130px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .two{
+        display: none;
+    }
+    
+}
+@media (min-width: 992px) {
+    .sb{
+        padding: 15px 0px !important;
+    }
+    .tb{
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        width: 130px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .bc{
+        padding: 0;
+    }
+    .bc>img{
+        float: right;
+    }
+    .two{
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    .sb{
+        padding: 15px 5px !important;
+    }
+    .tb{
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        width: 130px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .two{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .sb{
+        padding: 15px 15px !important;
+    }
+    .tb{
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        width: 130px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .two{
+        display: none;
+    }
+}
+
+/*  */
+/* 头部样式 */
+.container-1{
+    background-color: #efeff1;
+}
+.navbar-lofree{
+    height: 70px;
+    background-color: #fff;;
+    margin: 0;
+    position: relative;
+    z-index: 10;
+}
+#lofree-nav{
+    margin: 0 auto;
+}
+.navbar-lofree>div{
+    padding: 0 0 0 30px;
+}
+.navbar-lofree .navbar-brand{
+    height: 70px;
+    width: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-lofree .navbar-brand img{
+    width: 134px;
+    height: 41px;
+}
+.navbar-brand-1{
+   position: absolute;
+   z-index: 100;
+   left: 50%;
+   top: 0;
+   transform: translateX(-50%);
+}
+.navbar-lofree .navbar-nav{
+    margin: 0 auto;
+}
+
+.navbar-lofree .navbar-nav>li>a{
+    color: #222;
+    height: 70px;
+    margin-right: 35px;
+    background-color: #fff !important;
+    display: flex;
+    align-items: center;
+}
+.navbar-lofree .navbar-nav>li>a:hover{
+    color:#0ff !important;
+}
+.button-nav{
+    float: left;
+    margin-left: -20px;
+    border: none;
+}
+
+.tb>span{
+    padding:0 15px;
+    width: 22px;
+    height: 22px;
+}
+
+
+/* con */
+.our{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wenz{
+    line-height:25px;
+    color:#616870;
+    letter-spacing: 1px;
+}
+.be{
+    margin-left:40px;
+}
+.er{
+    margin:50px auto;
+}
+
+
+
+.row-padding{
+    background-color: #f6f6f8;
+}
+.row-padding h3{
+    font-weight: 600;
+}
+.row-padding h3 span{
+    font-size: 16px;
+}
+.row-padding h3 a{
+    font-size: 10px;
+}
+.fotter-height{
+    height: 100px;
+    line-height: 100px;
+}
+.fotter-height-img{
+    display: block;
+    margin: 20px;
+}
+#retop{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #878fac;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+/* 底部 */
+.row-padding{
+    background-color: #f6f6f8;
+    padding-bottom: 100px;
+}
+.row-padding h3{
+    font-weight: 600;
+}
+.row-padding h3 span{
+    font-size: 16px;
+}
+.row-padding h3 a{
+    font-size: 10px;
+}
+.fotter-height{
+    height: 100px;
+    line-height: 100px;
+}
+.fotter-height-img{
+    display: block;
+    margin: 20px;
+}
+#retop{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #878fac;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    z-index: 100;
+    background-color: #fff;
+}
