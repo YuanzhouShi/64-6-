@@ -1,0 +1,103 @@
+
+.banner{
+	width: 100%;
+	height: 80px;
+	background:url("../images/banner.jpg") no-repeat center center;
+}
+.top{
+	width: 100%;
+	height: 80px;
+	background: #000;
+	background:url("../images/banner.jpg") no-repeat center center;
+	border:none;
+	margin-bottom: 0;
+}
+.top_a a{
+	color:#fff !important;
+}
+.top_a a:hover{
+	color: #14CC71 !important;
+}
+.top_logo{
+	padding:0;
+}
+.navbar-brand>img{
+	width:140px;
+	height:50px;
+}
+.top_bu{
+	margin-top:20px;
+}
+.top_bu>button{
+	border:none;
+}
+.top_bu>button:hover{
+	background:none;
+
+}
+.top_a{
+	margin-top:20px;
+	border:none !important;
+	text-align: center;
+	line-height: 80px;
+}
+.top_a ul{
+	margin:0 auto;	
+}
+@media only screen and (max-width: 768px){
+	.top{
+		width: 100%;
+		background: rgb(80, 70, 87);
+	}
+	.top_a ul{
+		width: 100%;
+		height: auto;
+		background: rgb(80, 70, 87);
+		position: absolute;
+		z-index: 66;
+		left: 0;
+		margin:0;
+		padding: 0;
+	}
+	.top_a{
+		margin: 0;
+		height: 30px;
+		background: rgb(80, 70, 87);
+	}
+	.top_a ul a:hover{
+		color:#14CC71;
+}
+
+}
+.banner{
+	width:100%;
+	height:200px;
+	
+	background: #f4f4f4;
+}
+.text-white{
+	color:#fff;
+}
+.green{
+	color:#1FCC6E;
+
+}
+.banner h1{
+	color:#000;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.jianjie{
+	padding: 20px 0;
+	height:250px;
+}
+.tou_btn{
+	text-transform: uppercase;
+	background:rgba(0,0,0,0);
+	border:3px solid #fff;
+}
+.tou_btn:hover{
+	background: #14CC71!important;
+	color: #fff!important;
+	border-color: #14CC71!important;
+}
